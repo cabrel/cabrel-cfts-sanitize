@@ -1,0 +1,24 @@
+{
+  "name": "cabrel-cfts-sanitize",
+  "description": "Cleans up json responses to remove sensitive or erroneous information",
+  "version": "0.1.0",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cabrel/cabrel-cfts-sanitize.git"
+  },
+  "dependencies": {
+    "async": "*",
+    "boom": "*",
+    "hoek": "*",
+    "moment": "*"
+  },
+  "peerDependencies": {
+    "hapi": "1.x.x"
+  },
+  "author": "cabrel@zerklabs.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cabrel/cabrel-cfts-sanitize/issues"
+  }
+}
