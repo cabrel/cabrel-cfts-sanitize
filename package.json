@@ -7,6 +7,13 @@
     "type": "git",
     "url": "git://github.com/cabrel/cabrel-cfts-sanitize.git"
   },
+  "scripts": {
+    "test": "mocha --recursive",
+    "blanket": {
+      "pattern": "lib",
+      "data-cover-never": "node_modules"
+    }
+  },
   "dependencies": {
     "async": "*",
     "moment": "*",
@@ -14,6 +21,11 @@
   },
   "peerDependencies": {
     "hapi": "1.x.x"
+  },
+  "devDependencies": {
+    "expect.js": "*",
+    "blanket": "*",
+    "mocha": "*"
   },
   "author": "cabrel@zerklabs.com",
   "license": "MIT",
