@@ -1,7 +1,7 @@
 {
   "name": "cabrel-cfts-sanitize",
   "description": "Cleans up json responses to remove sensitive or erroneous information",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "main": "index",
   "repository": {
     "type": "git",
