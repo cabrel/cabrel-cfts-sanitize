@@ -1,11 +1,11 @@
 var expect = require('expect.js'),
-    workspaces = require('../lib/workspaces');
+    folders = require('../lib/folders');
 
 
-describe('Workspaces', function() {
+describe('Folders', function() {
   describe('#process', function() {
     it('should return null if given no arguments', function() {
-      expect(workspaces.process()).to.be(null);
+      expect(folders.process()).to.be(null);
     });
   });
 });
